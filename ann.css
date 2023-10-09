@@ -1,0 +1,536 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-quicksand: Quicksand;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-azure: #e5f8f8;
+  --color-paleturquoise: #a1f4f4;
+  --color-black: #000;
+
+  /* Paddings */
+  --padding-mid: 17px;
+  --padding-mini: 15px;
+
+  /* border radiuses */
+  --br-11xl: 30px;
+  --br-3xs: 10px;
+  --br-mini: 15px;
+  --br-21xl: 40px;
+  --br-xl: 20px;
+  --br-lg: 18px;
+}
+
+.peacefy {
+  text-decoration: none;
+  position: absolute;
+  top: 23px;
+  left: 50px;
+  font-size: 33px;
+  font-weight: 700;
+  color: inherit;
+}
+.home {
+  position: relative;
+}
+.home-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 32.8px;
+  left: 238.8px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-azure);
+  border: 1.2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 86.4px;
+  height: 26.4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+.blogs {
+  position: absolute;
+  top: 0.5px;
+  left: 18px;
+}
+.blogs-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 32.8px;
+  left: 474.8px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-azure);
+  border: 1.2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 86.4px;
+  height: 26.4px;
+  overflow: hidden;
+  color: inherit;
+}
+.experts {
+  position: absolute;
+  top: 0.5px;
+  left: 9px;
+}
+.experts-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 32.8px;
+  left: 356.8px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-azure);
+  border: 1.2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 86.4px;
+  height: 26.4px;
+  overflow: hidden;
+  color: inherit;
+}
+.peacefy-parent {
+  position: relative;
+  border-radius: 0px 0px var(--br-11xl) var(--br-11xl);
+  background-color: var(--color-azure);
+  width: 1500px;
+  height: 87px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.all-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 7.5px;
+  left: 29px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 53px;
+  height: 33px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+.stress-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 7.5px;
+  left: 95px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 79px;
+  height: 33px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+.depression-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 7.5px;
+  left: 187px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 120px;
+  height: 33px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+.anxiety-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 7.5px;
+  left: 320px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 90px;
+  height: 33px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+.addiction-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 7.5px;
+  left: 423px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 107px;
+  height: 33px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+.disorders-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 7.5px;
+  left: 543px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 109px;
+  height: 33px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+.sexual-issues-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 7.5px;
+  left: 665px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 140px;
+  height: 33px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+.relationship-issues-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 7.5px;
+  left: 818px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 197px;
+  height: 33px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+.ocd-wrapper {
+  position: absolute;
+  top: 7.5px;
+  left: 1028px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 64px;
+  height: 33px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.studies-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 7.5px;
+  left: 1105px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 86px;
+  height: 33px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+.frame-parent {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-azure);
+  border: 3px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1222px;
+  height: 54px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1500px;
+  height: 196px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 28px;
+}
+.frame-child {
+  border: none;
+  background-color: var(--color-white);
+  border-radius: var(--br-11xl);
+  width: 852px;
+  height: 178px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.post {
+  position: relative;
+  font-size: 32.72px;
+  display: inline-block;
+  font-family: var(--font-quicksand);
+  color: var(--color-black);
+  text-align: left;
+  width: 72px;
+}
+.post-wrapper {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: 0;
+  background-color: var(--color-white);
+  border-radius: 28.28px;
+  box-sizing: border-box;
+  width: 128px;
+  height: 69px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frame-group {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-azure);
+  width: 1037px;
+  height: 229px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 25px 18px 26px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 13px;
+}
+.frame2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1380px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame-item {
+  position: absolute;
+  top: 69px;
+  left: 32px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  width: 856px;
+  height: 137px;
+  overflow: hidden;
+}
+.maeves-wrapper {
+  position: absolute;
+  top: 21px;
+  left: 32px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-paleturquoise);
+  width: 141px;
+  height: 29px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.comment-undefined {
+  position: absolute;
+  top: 24px;
+  left: 227px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.i-was-not {
+  position: absolute;
+  top: 88px;
+  left: 52px;
+  font-weight: 600;
+  display: inline-block;
+  width: 757px;
+  height: 92px;
+}
+.heart-undefined-glyph-und {
+  position: absolute;
+  top: 24px;
+  left: 188px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frame-container {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-azure);
+  width: 935px;
+  height: 232px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame3 {
+  position: absolute;
+  top: 280px;
+  left: 0px;
+  width: 1380px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.the-person-im {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 757px;
+  height: 92px;
+  flex-shrink: 0;
+}
+.the-person-im-attracted-to-ju-wrapper {
+  position: absolute;
+  top: 69px;
+  left: 32px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  width: 856px;
+  height: 137px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-mid) var(--padding-mini);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frame4 {
+  position: absolute;
+  top: 544px;
+  left: 5px;
+  width: 1370px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame5 {
+  position: absolute;
+  top: 808px;
+  left: 5px;
+  width: 1370px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame6 {
+  position: absolute;
+  top: 1336px;
+  left: 5px;
+  width: 1370px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.vector-icon {
+  position: absolute;
+  top: 27px;
+  left: 190px;
+  width: 20px;
+  height: 17.29px;
+  object-fit: cover;
+}
+.frame7 {
+  position: absolute;
+  top: 1072px;
+  left: 5px;
+  width: 1370px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame1 {
+  position: absolute;
+  top: 196px;
+  left: 60px;
+  width: 1380px;
+  height: 1568px;
+  overflow: hidden;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1798px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-quicksand);
+}
